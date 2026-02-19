@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!-- saved from url=(0023)https://localhost:7102/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtCore — Portfolio - ArtCore</title>
+
+    <!-- Главный движок красоты -->
+    <script src="./ArtCore — Portfolio - ArtCore_files/saved_resource"></script>
+
+    <style>
+        /* Начальное состояние: невидимый и чуть ниже */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+            /* Состояние после появления: видимый и на своем месте */
+            .reveal.active {
+                opacity: 1;
+                transform: translateY(0);
+            }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-0{right:0px}.right-8{right:2rem}.top-0{top:0px}.top-8{top:2rem}.z-\[100\]{z-index:100}.mb-2{margin-bottom:0.5rem}.mb-24{margin-bottom:6rem}.mt-32{margin-top:8rem}.mt-6{margin-top:1.5rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.aspect-\[4\/5\]{aspect-ratio:4/5}.h-0{height:0px}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-1{width:0.25rem}.w-fit{width:-moz-fit-content;width:fit-content}.w-full{width:100%}.max-w-xs{max-width:20rem}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-between{justify-content:space-between}.gap-8{gap:2rem}.gap-x-12{column-gap:3rem}.gap-y-4{row-gap:1rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.overflow-hidden{overflow:hidden}.rounded-sm{border-radius:0.125rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-white\/10{border-color:rgb(255 255 255 / 0.1)}.border-white\/20{border-color:rgb(255 255 255 / 0.2)}.border-white\/5{border-color:rgb(255 255 255 / 0.05)}.bg-\[\#050505\]{--tw-bg-opacity:1;background-color:rgb(5 5 5 / var(--tw-bg-opacity, 1))}.bg-black\/20{background-color:rgb(0 0 0 / 0.2)}.bg-neutral-900{--tw-bg-opacity:1;background-color:rgb(23 23 23 / var(--tw-bg-opacity, 1))}.from-black\/80{--tw-gradient-from:rgb(0 0 0 / 0.8) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0)  var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), transparent var(--tw-gradient-via-position), var(--tw-gradient-to)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-8{padding:2rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.pb-1{padding-bottom:0.25rem}.pb-16{padding-bottom:4rem}.pt-12{padding-top:3rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10px\]{font-size:10px}.text-\[9px\]{font-size:9px}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-light{font-weight:300}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.tracking-\[0\.3em\]{letter-spacing:0.3em}.tracking-\[0\.4em\]{letter-spacing:0.4em}.tracking-tighter{letter-spacing:-0.05em}.tracking-widest{letter-spacing:0.1em}.text-neutral-400{--tw-text-opacity:1;color:rgb(163 163 163 / var(--tw-text-opacity, 1))}.text-orange-500{--tw-text-opacity:1;color:rgb(249 115 22 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.opacity-60{opacity:0.6}.grayscale{--tw-grayscale:grayscale(100%);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px);-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-1000{transition-duration:1000ms}.duration-500{transition-duration:500ms}.duration-700{transition-duration:700ms}.ease-in-out{transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1)}.selection\:bg-orange-500 *::selection{--tw-bg-opacity:1;background-color:rgb(249 115 22 / var(--tw-bg-opacity, 1))}.selection\:bg-orange-500::selection{--tw-bg-opacity:1;background-color:rgb(249 115 22 / var(--tw-bg-opacity, 1))}.hover\:border-white:hover{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.group:hover .group-hover\:h-full{height:100%}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:border-orange-500{--tw-border-opacity:1;border-color:rgb(249 115 22 / var(--tw-border-opacity, 1))}.group:hover .group-hover\:opacity-100{opacity:1}.group:hover .group-hover\:grayscale-0{--tw-grayscale:grayscale(0);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}@media (min-width: 768px){.md\:aspect-square{aspect-ratio:1 / 1}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:gap-16{gap:4rem}.md\:p-12{padding:3rem}}</style></head>
+
+<body class="bg-[#050505]">
+    
+
+
+<div class="min-h-screen bg-[#050505] p-8 text-white selection:bg-orange-500 md:p-12">
+
+    <!-- Header -->
+    <header class="animate-in fade-in mb-24 flex items-center justify-between duration-1000">
+        <h1 class="text-xl font-bold tracking-[0.3em] uppercase">ArtCore</h1>
+    </header>
+
+    <!-- Сетка проектов -->
+    <main class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
+            <a href="https://localhost:7102/projects/cyberpunk-vision" class="reveal group relative block aspect-[4/5] overflow-hidden rounded-sm bg-neutral-900 md:aspect-square active">
+
+                <!-- Картинка обложки с оптимизацией загрузки -->
+                <img src="./ArtCore — Portfolio - ArtCore_files/1643440880219.jpg" class="h-full w-full object-cover opacity-60 grayscale transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0" alt="Cyberpunk Vision" fetchpriority="high" loading="eager">
+
+                <!-- Оверлей с информацией -->
+                <div class="bg-gradient-t absolute inset-0 flex flex-col justify-end from-black/80 via-transparent to-transparent p-8">
+                    <p class="mb-2 tracking-[0.4em] text-[10px] text-orange-500 uppercase">Selected Work</p>
+                    <h3 class="mb-2 text-4xl font-black tracking-tighter uppercase">Cyberpunk Vision</h3>
+                    <p class="max-w-xs text-sm font-light text-neutral-400">Исследование визуального стиля неонового города будущего и цифровой эстетики.</p>
+
+                    <span class="mt-6 inline-block w-fit border-b border-white/20 pb-1 tracking-widest text-[10px] uppercase transition-colors group-hover:border-orange-500">
+                        Показать проект
+                    </span>
+                </div>
+
+                <!-- Акцентная плашка -->
+                <div class="absolute top-0 right-0 h-0 w-1 transition-all duration-500 group-hover:h-full" style="background-color: #ff3e00;"></div>
+            </a>
+            <a href="https://localhost:7102/projects/dasdasd" class="reveal group relative block aspect-[4/5] overflow-hidden rounded-sm bg-neutral-900 md:aspect-square active">
+
+                <!-- Картинка обложки с оптимизацией загрузки -->
+                <img src="./ArtCore — Portfolio - ArtCore_files/75bc13a1-d1ce-4471-ac7b-fbd8e15b3c4f.webp" class="h-full w-full object-cover opacity-60 grayscale transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0" alt="dasdasd" fetchpriority="low" loading="lazy">
+
+                <!-- Оверлей с информацией -->
+                <div class="bg-gradient-t absolute inset-0 flex flex-col justify-end from-black/80 via-transparent to-transparent p-8">
+                    <p class="mb-2 tracking-[0.4em] text-[10px] text-orange-500 uppercase">Selected Work</p>
+                    <h3 class="mb-2 text-4xl font-black tracking-tighter uppercase">dasdasd</h3>
+                    <p class="max-w-xs text-sm font-light text-neutral-400"></p>
+
+                    <span class="mt-6 inline-block w-fit border-b border-white/20 pb-1 tracking-widest text-[10px] uppercase transition-colors group-hover:border-orange-500">
+                        Показать проект
+                    </span>
+                </div>
+
+                <!-- Акцентная плашка -->
+                <div class="absolute top-0 right-0 h-0 w-1 transition-all duration-500 group-hover:h-full" style="background-color: #ea580c;"></div>
+            </a>
+            <a href="https://localhost:7102/projects/dsfsd" class="reveal group relative block aspect-[4/5] overflow-hidden rounded-sm bg-neutral-900 md:aspect-square active">
+
+                <!-- Картинка обложки с оптимизацией загрузки -->
+                <img src="./ArtCore — Portfolio - ArtCore_files/652539f9-bbc9-4d59-a12d-988c4f0e20fc.webp" class="h-full w-full object-cover opacity-60 grayscale transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0" alt="dsfsd" fetchpriority="low" loading="lazy">
+
+                <!-- Оверлей с информацией -->
+                <div class="bg-gradient-t absolute inset-0 flex flex-col justify-end from-black/80 via-transparent to-transparent p-8">
+                    <p class="mb-2 tracking-[0.4em] text-[10px] text-orange-500 uppercase">Selected Work</p>
+                    <h3 class="mb-2 text-4xl font-black tracking-tighter uppercase">dsfsd</h3>
+                    <p class="max-w-xs text-sm font-light text-neutral-400"></p>
+
+                    <span class="mt-6 inline-block w-fit border-b border-white/20 pb-1 tracking-widest text-[10px] uppercase transition-colors group-hover:border-orange-500">
+                        Показать проект
+                    </span>
+                </div>
+
+                <!-- Акцентная плашка -->
+                <div class="absolute top-0 right-0 h-0 w-1 transition-all duration-500 group-hover:h-full" style="background-color: #ea580c;"></div>
+            </a>
+            <a href="https://localhost:7102/projects/ropro" class="reveal group relative block aspect-[4/5] overflow-hidden rounded-sm bg-neutral-900 md:aspect-square active">
+
+                <!-- Картинка обложки с оптимизацией загрузки -->
+                <img src="./ArtCore — Portfolio - ArtCore_files/8db95fce-91bd-4357-a6a0-aef5d9ff316b.webp" class="h-full w-full object-cover opacity-60 grayscale transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:opacity-100 group-hover:grayscale-0" alt="ропро" fetchpriority="low" loading="lazy">
+
+                <!-- Оверлей с информацией -->
+                <div class="bg-gradient-t absolute inset-0 flex flex-col justify-end from-black/80 via-transparent to-transparent p-8">
+                    <p class="mb-2 tracking-[0.4em] text-[10px] text-orange-500 uppercase">Selected Work</p>
+                    <h3 class="mb-2 text-4xl font-black tracking-tighter uppercase">ропро</h3>
+                    <p class="max-w-xs text-sm font-light text-neutral-400"></p>
+
+                    <span class="mt-6 inline-block w-fit border-b border-white/20 pb-1 tracking-widest text-[10px] uppercase transition-colors group-hover:border-orange-500">
+                        Показать проект
+                    </span>
+                </div>
+
+                <!-- Акцентная плашка -->
+                <div class="absolute top-0 right-0 h-0 w-1 transition-all duration-500 group-hover:h-full" style="background-color: #ea580c;"></div>
+            </a>
+    </main>
+
+    <footer class="mt-32 flex flex-col items-start justify-between gap-8 border-t border-white/5 pt-12 pb-16 md:flex-row">
+    <div class="flex flex-wrap gap-x-12 gap-y-4">
+    </div>
+</footer>
+
+</div>
+
+    
+
+    <div b-bo3sdjxcou="" class="fixed top-8 right-8 z-[100] flex items-center space-x-8 font-medium tracking-widest text-[9px] text-neutral-400 uppercase">
+
+            <a b-bo3sdjxcou="" href="https://localhost:7102/Login" class="rounded-sm border border-white/10 bg-black/20 px-3 py-1 backdrop-blur-md transition-all hover:border-white hover:text-white">
+                LOGIN
+            </a>
+    </div>
+
+    <script>
+        const observerOptions = {
+            threshold: 0.1 // Анимация сработает, когда 10% элемента показалось на экране
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    // Опционально: перестаем следить за элементом после появления
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        // Запускаем слежку за всеми элементами с классом reveal
+        document.addEventListener("DOMContentLoaded", () => {
+            const revealElements = document.querySelectorAll('.reveal');
+            revealElements.forEach(el => observer.observe(el));
+        });
+    </script>
+
+<!-- Visual Studio Browser Link -->
+<script type="text/javascript" src="./ArtCore — Portfolio - ArtCore_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="3451702d2b474020aedd4378b187d611" data-requestmappingfromserver="false" data-connecturl="http://localhost:55511/5264fd32bebc47ad8c48444e4ddc404e/browserLink"></script>
+<!-- End Browser Link -->
+<script src="./ArtCore — Portfolio - ArtCore_files/aspnetcore-browser-refresh.js.Без названия"></script>
+
+
+</body></html>
